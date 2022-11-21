@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              bgBody : '#eee',
+              oBase : 'rgba(0,0,0,0)',
+              oTarget : 'rgba(0,0,0,.8)',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Gallery Kitchen Set</title>
+</head>
+<body>
+    
+    <section>
+        <div class="flex items-center my-5">
+            <div class="">
+                <a href="beranda.html#cupboard" class="flex items-center text-xl ml-2">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/back.png"/></a>
+            </div>
+            <div class="mx-auto flex items-center">
+                <img src="./Assets/cupBoard.png" alt="" class="w-6 mr-2">
+                <h1 class="text-2xl font-semibold uppercase">Cupboard</h1>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container flex flex-wrap mx-auto">
+            <!-- Card 1 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-1">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/1.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-1" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 md:py-10 opacity-0 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget target:opacity-100" id="gambar-1">
+                    <img src="./aCupboard/1.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto">
+                    <a href="#items-1" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-2">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/2.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-2" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 md:py-20 opacity-0 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget target:opacity-100" id="gambar-2">
+                    <img src="./aCupboard/2.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto">
+                    <a href="#items-2" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-3">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/3.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-3" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget" id="gambar-3">
+                    <img src="./aCupboard/3.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto">
+                    <a href="#items-3" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-4">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/4.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-4" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget" id="gambar-4">
+                    <img src="./aCupboard/4.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto ">
+                    <a href="#items-4" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 5 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-5">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/5.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-5" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 md:px-52 md:py-14 opacity-0 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget target:opacity-100" id="gambar-5">
+                    <img src="./aCupboard/5.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto ">
+                    <a href="#items-5" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 6 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-6">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/6.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-6" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget" id="gambar-6">
+                    <img src="./aCupboard/6.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto ">
+                    <a href="#items-6" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 7 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-7">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/7.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-7" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget" id="gambar-7">
+                    <img src="./aCupboard/7.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto ">
+                    <a href="#items-7" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 8 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-8">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/8.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-8" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget" id="gambar-8">
+                    <img src="./aCupboard/8.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto ">
+                    <a href="#items-8" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+            <!-- card 9 -->
+            <div class="border w-1/2 bg-white rounded-lg md:w-1/6" id="items-9">
+                <div class="h-52 bg-cover border-b-2 rounded-t-lg" style="background-image: url(./aCupboard/9.jpg);"></div>
+                <div class="py-2 px-2">
+                    <h1 class="text-lg mb-1">lorem</h1>
+                    <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="w-24 mx-auto my-4 rounded-lg bg-green-300 hover:bg-green-400">
+                    <a href="#gambar-9" class="text-center block text-semibold">Show</a>
+                </div>
+                <!-- overlay -->
+                <div class="fixed py-28 overflow-hidden w-0 h-0 z-10 text-center bg-oBase target:bottom-0 target:right-0 target:top-0 target:left-0 target:w-auto target:h-auto target:bg-oTarget" id="gambar-9">
+                    <img src="./aCupboard/9.jpg" alt="kitchenSet" class="max-h-full w-11/12 my-auto mx-auto ">
+                    <a href="#items-9" class="text-4xl text-white">x</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            bgBody : '#eee',
+            glass : 'rgba(255,255,255,.2)',
+            biruMuda : '#9AD0EC',
+            abuMuda : '#D3DEDC',
+            dongker : '#92A9BD',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Furniture</title>
+</head>
+
+<body class="bg-bgBody">
+
+  <section>
+    <div class="h-96 flex flex-col items-center justify-center bg-cover bg-fixed" style="background-image: url(https://images.unsplash.com/photo-1622372738946-62e02505feb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZ1cm5pdHVyZSUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);">
+    </div>
+  </section>
+
+  <section>
+    <div class="container -mt-5 pt-6 mx-auto md:flex md:my-8 rounded-t-3xl bg-white">
+      <div class="relative md:w-1/2">
+        <div class="text-2xl capitalize pl-6">
+          <p class="text-lg text-orange-500 font-base pt-4">great design collection</p>
+          <p>Furniture covered accent</p>
+        </div>
+        <p class="mt-0.5 text-slate-600 md:w-10/12 pl-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati cum fugiat nesciunt aliquam aperiam fugit.</p>
+        <div class="h-64 py-2 md:hidden">
+          <img class="object-covern h-64 mx-auto" src="https://pngimg.com/uploads/cupboard_closet/cupboard_closet_PNG16748.png" alt="">
+        </div>
+        <div class="absolute -top-10  bg-white px-4 py-4 rounded-full w-12 ml-6">
+          <img src="https://img.icons8.com/external-stick-figures-gan-khoon-lay/51/000000/external-carpenter-worker-stick-figures-gan-khoon-lay-2.png"/>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <div class="mt-4 pl-6">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquid aperiam a corporis delectus! Natus laborum eligendi mollitia voluptas iusto odio, quos vero repellat quasi veritatis! Beatae sit ab soluta.</p>
+          <ul class="mt-2 pl-6">
+            <li class="flex items-center"><img src="https://img.icons8.com/color/48/000000/double-tick.png" class="w-4 mr-2"/>Lorem ipsum dolor sit amet.</li>
+            <li class="flex items-center"><img src="https://img.icons8.com/color/48/000000/double-tick.png" class="w-4 mr-2"/>Lorem ipsum dolor sit amet.</li>
+            <li class="flex items-center"><img src="https://img.icons8.com/color/48/000000/double-tick.png" class="w-4 mr-2"/>Lorem ipsum dolor sit amet.</li>
+            <li class="flex items-center"><img src="https://img.icons8.com/color/48/000000/double-tick.png" class="w-4 mr-2"/>Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <p class="mt-2 italic text-orange-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, labore?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="md:container bg-white">
+      <div class="flex flex-wrap justify-evenly items-center">
+        <div class="my-4 py-2 px-2 rounded-lg hover:bg-gray-300" id="kitchen" data-aos="fade-down" data-aos-duration="3000">
+          <a href="kitchenSet.html" class="flex flex-col items-center group">
+            <img src="../Assets/kitchenSet.png" alt="" class="w-8 h-8 group-hover:animate-bounce">
+            <p class="mt-2 text-sm font-semibold text-center">Kitchen</p>
+            <p class="text-xs text-center text-slate-600 hidden">Lorem ipsum dolor sit,<br>amet consectetur adipisicing elit.<br>Magni, assumenda.</p>
+          </a>
+        </div>
+        <div class="my-4 px-2 py-2 rounded-lg hover:bg-gray-300" id="cupboard" data-aos="fade-down" data-aos-duration="3000">
+          <a href="cupBoard.html" class="flex flex-col items-center group">
+            <img src="../Assets/cupBoard.png" alt="" class="w-8 h-8 group-hover:animate-bounce">
+            <p class="mt-2 text-sm font-semibold">CupBoard</p>
+            <p class="text-xs text-center text-slate-600 mt-2 hidden">Lorem ipsum dolor sit,<br>amet consectetur adipisicing elit.<br>Magni, assumenda.</p>
+          </a>
+        </div>
+        <div class="my-4 py-2 px-2 rounded-lg hover:bg-gray-300" id="table" data-aos="fade-down" data-aos-duration="3000">
+          <a href="table.html" class="flex flex-col items-center group">
+            <img src="../Assets/table.png" alt="" class="w-8 h-8 group-hover:animate-bounce">
+            <p class="mt-2 text-sm font-semibold">Table</p>
+            <p class="text-xs text-center text-slate-600 mt-2 hidden">Lorem ipsum dolor sit,<br>amet consectetur adipisicing elit.<br>Magni, assumenda.</p>
+          </a>
+        </div>
+        <div class="my-4 py-2 px-2 rounded-lg hover:bg-gray-300" id="bedroom" data-aos="fade-down" data-aos-duration="3000">
+          <a href="badroomSet.html" class="flex flex-col items-center group">
+            <img
+              src="../Assets/bedroomSet.png"
+              alt="" class="w-8 h-8 group-hover:animate-bounce">
+            <p class="mt-2 text-sm font-semibold text-center">Bedroom</p>
+            <p class="text-xs text-center text-slate-600 hidden">Lorem ipsum dolor sit,<br>amet consectetur adipisicing elit.<br>Magni, assumenda.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bg-white px-4 py-6">
+      <div class="flex overflow-x-auto gap-5">
+        <div class="relative rounded-lg shrink-0 overflow-hidden">
+          <img class="w-[300px] h-[350px]" src="../aBedroomSet/7.jpg" alt="gambar-1">
+          <p class="absolute bottom-2 left-2 text-white drop-shadow-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eum!</p>
+        </div>
+        <div class="relative rounded-lg shrink-0 overflow-hidden">
+          <img class="w-[300px] h-[350px]" src="../aBedroomSet/8.jpg" alt="gambar-1">
+          <p class="absolute bottom-2 left-2 text-white drop-shadow-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eum!</p>
+        </div>
+        <div class="relative rounded-lg shrink-0 overflow-hidden">
+          <img class="w-[300px] h-[350px]" src="../aBedroomSet/5.jpg" alt="gambar-1">
+          <p class="absolute bottom-2 left-2 text-white drop-shadow-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, eum!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class=" flex flex-col lg:flex-row bg-white">
+      <div class="bg-[#FFBC97] px-6 text-white capitalize py-4">
+        <h1 class="text-2xl font-bold ">note :</h1>
+        <p class="text-sm italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, mollitia inventore doloribus quam consequuntur esse! Nam dolor quam doloribus aliquid, voluptas ab porro. Eveniet eum sed autem eligendi minima tempora.</p>
+      </div>
+      <div class="lg:w-1/2">
+        <div class="mx-auto w-11/12 rounded-lg py-6">
+          <h1 class="text-center text-2xl font-semibold mb-2">Contact Us</h1>
+          <div class="alert w-11/12 mx-auto relative hidden">
+            <h1 class="text-center font-semibold text-white py-2 px-2 rounded-lg bg-green-600">Pesan berhasil dikirim, terima kasih mohon menunggu balasan dari kami</h1>
+            <p class="tutup absolute -top-2 -right-3 bg-green-600 rounded-full px-2 text-xl font-semibold cursor-pointer">X</p>
+          </div>
+          <form name="furniture-contact-form">
+            <fieldset class="w-11/12 mx-auto">
+              <p class="flex flex-col capitalize">
+                <label for="">nama lengkap</label>
+                <input type="text" name="nama" placeholder="Masukan nama..." class="border border-slate-900 rounded py-0.5 px-2">
+              </p>
+              <p class="flex flex-col capitalize mt-2">
+                <label for="">email</label>
+                <input type="email" name="email" placeholder="Masukan email..." class="border border-slate-900 rounded py-0.5 px-2">
+              </p>
+              <p class="flex flex-col capitalize mt-2">
+                <label for="">no telefon</label>
+                <input type="text" name="no_tlp" placeholder="Masukan nomor..." class="border border-slate-900 rounded py-0.5 px-2">
+              </p>
+              <p class="flex flex-col capitalize mt-2">
+                <label for="">Pesan</label>
+                <textarea name="pesan" id="" class="border border-slate-900 rounded h-32"></textarea>
+              </p>
+              <p class="mt-4">
+                <button type="submit" class="btn-kirim bg-sky-600 px-4 py-2 rounded hover:bg-sky-700 font-semibold">Kirim</button>
+                <button disabled class="btn-loading hidden bg-sky-600 px-4 py-2 rounded font-semibold"><img src="https://img.icons8.com/plumpy/24/000000/loading.png" class="animate-spin"/></button>
+              </p>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="flex justify-around md:justify-evenly md:gap-10 capitalize bg-slate-700 text-slate-300 text-xs font-serif">
+      <div class="my-2">
+      <div class="underline">
+        <h1 class="text-center text-sm">social media</h1>
+      </div>
+      <div class="my-2 md:flex md:gap-4">
+        <a href="" class="flex items-center my-1 hover:underline">
+          <img class="w-6" src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+          <p>@furniture_company</p>
+        </a>
+        <a href="" class="flex items-center hover:underline">
+          <img class="w-6"src="https://img.icons8.com/color/48/000000/facebook.png"/>
+          <p>furniture.company</p>
+        </a>
+        <a href="" class="flex items-center my-1 hover:underline">
+          <img class="w-6" src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/>
+          <p>+62 9213 4267 1003</p>
+        </a>
+      </div>
+    </div>
+    <div class="my-2">
+      <h1 class="text-sm underline text-center">jam oprasional</h1>
+      <div class="my-2 md:flex md:gap-4">
+        <div>
+          <p>senin-jumat</p>
+          <p>08:30-17:00 WIB</p>
+        </div>
+        <div>
+          <p class="mt-2 md:mt-auto">sabtu</p>
+          <p>09:00-15:00 WIB</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
